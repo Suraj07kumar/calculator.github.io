@@ -40,7 +40,7 @@ a{
     background: none;
     border: none;
     font-size: 18px;
-    padding: 10px 20px;
+    padding: 10px 25px;
 }
 .dropdown-content{
     display: none;
@@ -49,7 +49,7 @@ a{
 }
 .dropdown-content a{
     display: block;
-    padding: 15px 40px;
+    padding: 15px 45px;
     text-decoration: none;
 }
 .dropdown:hover .dropdown-content {
