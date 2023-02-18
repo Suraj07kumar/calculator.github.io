@@ -49,12 +49,11 @@ a{
 }
 .dropdown-content a{
     display: block;
-    padding: 15px 20px;
+    padding: 15px 30px;
     text-decoration: none;
 }
 .dropdown:hover .dropdown-content {
     display: block;
-    margin-left: 20px;
 }
 .dropdown-content a:hover {
     background-color: grey;
