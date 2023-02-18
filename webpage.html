@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <link rel="stylesheet" href="webpage/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="content"> 
+            <ul><img src="cal.png" alt=""></ul>
+            <ul><h1>Calculator</h1></ul>
+        </div>
+        <div class="container">
+            <a href="#" class="active">Home</a>&nbsp
+            <a href="#">About</a>&nbsp
+            <div class="dropdown">
+                <button class="dropbtn">Contact</button>
+                <div class="dropdown-content">
+                    <a href="#"><img src="insta.jpeg" alt="" style="height: 18px; width: 18px; border-radius: 4px;"></a>
+                    <a href="#"><img src="in.png" alt="" style="height: 18px; width: 18px; border-radius: 9px;"></a>
+                    <a href="#"><img src="tweet.jpeg" alt="" style="height: 18px; width: 18px; border-radius: 0px;"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="operation">
+    Enter first number <br><br>
+    <input type="text" id="N1"> 
+    <br><br>
+    Enter second Number <br><br>
+    <input type="text" id="N2">
+    <br><br>
+    <button class="Add" onclick="add()">+</button>
+    <button class="Sub" onclick="sub()">-</button>
+    <button class="Mul" onclick="mul()">*</button>
+    <button class="Div" onclick="div()">/</button>
+    <br><br>
+    Answer <br><br>
+    <input type="text" id="Ans">
+    </div>
+    <script src="webpage.js"></script>
+</body>
+</html>
