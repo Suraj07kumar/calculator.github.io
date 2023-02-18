@@ -54,6 +54,7 @@ a{
 }
 .dropdown:hover .dropdown-content {
     display: block;
+    margin-left: 20px;
 }
 .dropdown-content a:hover {
     background-color: grey;
