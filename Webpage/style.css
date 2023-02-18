@@ -49,7 +49,7 @@ a{
 }
 .dropdown-content a{
     display: block;
-    padding: 15px 60px;
+    padding: 15px 20px;
     text-decoration: none;
 }
 .dropdown:hover .dropdown-content {
